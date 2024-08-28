@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "curtains",
+  "info": {
+    "singularName": "curtain",
+    "pluralName": "curtains",
+    "displayName": "curtain",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imgtext1": {
+      "type": "string"
+    },
+    "imgtext2": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title1"
+    }
+  }
+}

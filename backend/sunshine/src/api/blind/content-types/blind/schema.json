@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blinds",
+  "info": {
+    "singularName": "blind",
+    "pluralName": "blinds",
+    "displayName": "blind",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imgtext1": {
+      "type": "string"
+    },
+    "imgtext2": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title1"
+    }
+  }
+}

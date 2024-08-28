@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shutters",
+  "info": {
+    "singularName": "shutter",
+    "pluralName": "shutters",
+    "displayName": "shutter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imgtext1": {
+      "type": "string"
+    },
+    "imgtext2": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title1"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.15.1
+3 silly config load:file:C:\Users\Lenovo\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Lenovo\Desktop\Sun_Shine Curtains\backend\sunshine\node_modules\esbuild\lib\npm-install\.npmrc
+5 silly config load:file:C:\Users\Lenovo\.npmrc
+6 silly config load:file:C:\Users\Lenovo\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @esbuild/win32-x64@0.19.11
+8 verbose argv "install" "--loglevel" "error" "--prefer-offline" "--no-audit" "--progress" "false" "@esbuild/win32-x64@0.19.11"
+9 verbose logfile logs-max:10 dir:C:\Users\Lenovo\Desktop\Sun_Shine Curtains\backend\UsersLenovoAppDataLocalnpm-cache\_logs\2024-08-06T07_20_46_373Z-
+10 verbose logfile C:\Users\Lenovo\Desktop\Sun_Shine Curtains\backend\UsersLenovoAppDataLocalnpm-cache\_logs\2024-08-06T07_20_46_373Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @esbuild/win32-x64@0.19.11
+15 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 36ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 set size:155145 disposed:false
+18 silly placeDep ROOT @esbuild/win32-x64@0.19.11 OK for:  want: 0.19.11
+19 silly reify moves {}
+20 silly tarball no local data for @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.19.11.tgz. Extracting by manifest.
+21 http fetch GET 200 https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.19.11.tgz 5333ms (cache miss)
+22 silly ADD node_modules/@esbuild/win32-x64
+23 verbose cwd C:\Users\Lenovo\Desktop\Sun_Shine Curtains\backend\sunshine\node_modules\esbuild\lib\npm-install
+24 verbose os Windows_NT 10.0.22631
+25 verbose node v20.15.1
+26 verbose npm  v10.8.2
+27 verbose exit 0
+28 info ok
